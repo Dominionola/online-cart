@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  background: #ebf3fb;
+}
+
+.container {
+  border-radius: 10px;
+  color: black;
+  height: 360px;
+  max-width: 489px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.earphone .img {
+  width: 200px;
+  padding-left: 1px;
+  padding-top: 30px;
+}
+
+.earphone-grid {
+  display: grid;
+  grid-template-columns: 0.1fr 2fr;
+}
+
+.ship {
+  background: #25244f;
+  color: #fff;
+  display: inline-block;
+  padding: 3px 3px;
+  border-radius: 10px;
+}
+
+.earphone-info {
+  padding-top: 20px;
+  z-index: 1000;
+}
+
+.earphone-info .name {
+  margin: 0;
+  width: 80%;
+  padding-bottom: 10px;
+}
+.current {
+  margin: 0;
+  color: #25244f;
+}
+.name {
+  padding-top: 8px;
+}
+
+.text-xl {
+  font-size: 1.8rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.text-lg {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-weight: 600;
+  margin: 30px 0 20px;
+  color: #25244f;
+}
+
+.text-md {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 20px 0 10px;
+}
+
+.text-sm {
+  font-size: 0.5rem;
+  line-height: 1.4;
+  font-weight: normal;
+  margin: 10px 0px 0px;
+}
+
+.text-grey {
+  font-size: 0.5rem;
+  line-height: 1.4;
+  font-weight: normal;
+  color: #737373;
+  padding-bottom: 20px;
+}
+
+.text-btn {
+  font-size: 0.6rem;
+}
+
+.btn {
+  display: block;
+  padding: 9px 9px;
+  background: #4891ff;
+  color: #fff;
+  font-weight: normal;
+  width: 90%;
+  text-decoration: none;
+  /* border: none; */
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  border-bottom: solid 4px #0c6bf8;
+  /* transition: 0.5s; */
+}
+
+.pair {
+  padding-top: 10px;
+  display: grid;
+  width: 90%;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.btn-w {
+  background: #fff;
+  padding: 9px 7px;
+  border: #d8d8d8 solid 0.1rem;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
